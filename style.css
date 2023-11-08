@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.item1{
+    background-color: red;
+    position: relative;
+    animation: Rotate 9s infinite;
+    width: 250px;
+    height: 250px;
+}
+@keyframes Rotate{
+    0%{
+        left: 0px;
+    
+    }
+}
